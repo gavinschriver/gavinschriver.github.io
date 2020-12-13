@@ -13,17 +13,18 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="shortcut icon" href="images/enso.png" type="image/x-icon" />
-    <link rel="icon" href="images/enso.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/enso.ico" type="image/x-icon" />
+    <link rel="icon" href="images/enso.ico" type="image/x-icon" />
   </head>
   <body class="is-preload">
     <!-- Nav -->
     <nav id="nav">
       <ul class="container">
         <li><a href="#top">Top</a></li>
-        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
       </ul>
     </nav>
 
@@ -31,11 +32,13 @@
     <article id="top" class="wrapper style1">
       <div class="container">
         <div class="row">
+
           <div class="col-4 col-5-large col-12-medium">
             <span class="image fit"
               ><img src="images/headshot.JPG" alt=""
             /></span>
           </div>
+
           <div class="col-8 col-7-large col-12-medium">
             <header>
               <h1>Gavin Schriver</h1>
@@ -44,100 +47,89 @@
               Aspiring junior software developer. Accomplished dabbler in other
               things.
             </p>
-            <a href="#work" class="button large scrolly"
-              >Learn about what I do</a
-            >
+            <a href="#about" class="button large scrolly">Details, please</a>
           </div>
         </div>
       </div>
     </article>
 
-    <!-- Work -->
-    <article id="work" class="wrapper style2">
+    <!-- -->
+    <article id="about" class="wrapper style1">
       <div class="container">
-        <header>
-          <h2>Here's all the stuff I do.</h2>
-          <p>Odio turpis amet sed consequat eget posuere consequat.</p>
-        </header>
-        <div class="row aln-center">
-          <div class="col-4 col-6-medium col-12-small">
-            <section class="box style1">
-              <span class="icon featured fa-comments"></span>
-              <h3>Consequat lorem</h3>
-              <p>
-                Ornare nulla proin odio consequat sapien vestibulum ipsum primis
-                sed amet consequat lorem dolore.
-              </p>
-            </section>
+        
+          <p style="font-size: 1.5em;">
+          I've been involved in web development on and off for about seven
+          years. I started as a content developer for startups in Austin
+          and Chicago, then began teaching myself web basics to understand
+          what people were doing with all those fancy word I wrote.
+        </p>
+              <div class="container">
+              After learning HTML and CSS out of a book that I'm pretty sure was called "HTML and CSS", 
+                I made a handful of Wordpress sites for friends and friends of friends, along with Squarespace designs
+                for local small businesses. I've recently begun to pursue development (much) more seriously, attending Nashville
+                Software School as a part of <a href="https://nss-day-cohort-42.github.io/">Day Cohort 42</a> with the ultimate
+                goal of a full stack or backend position.
+              
+            </div>
+            </div>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <section class="box style1">
-              <span class="icon solid featured fa-camera-retro"></span>
-              <h3>Lorem dolor tempus</h3>
-              <p>
-                Ornare nulla proin odio consequat sapien vestibulum ipsum primis
-                sed amet consequat lorem dolore.
-              </p>
-            </section>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <section class="box style1">
-              <span class="icon featured fa-thumbs-up"></span>
-              <h3>Feugiat posuere</h3>
-              <p>
-                Ornare nulla proin odio consequat sapien vestibulum ipsum primis
-                sed amet consequat lorem dolore.
-              </p>
-            </section>
-          </div>
-        </div>
-        <footer>
-          <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-          <a href="#portfolio" class="button large scrolly"
-            >See some of my recent work</a
-          >
         </footer>
       </div>
     </article>
 
     <!-- Portfolio -->
+
     <article id="portfolio" class="wrapper style3">
       <div class="container">
         <header>
-          <h2>Here’s some stuff I made recently.</h2>
-          <p>
-            Proin odio consequat sapien vestibulum consequat lorem dolore
-            feugiat.
-          </p>
+          <h1>Portfolio</h1>
+          <h2>Check out some stuff I've been invovled with.</h2>
         </header>
+
+        <!--Projects-->
+
         <div class="row">
-          <div class="col-4 col-6-medium col-12-small">
+          <div class="col-6 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
-                ><img src="images/pic01.jpg" alt=""
-              /></a>
-              <h3><a href="#">Magna feugiat</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <h3><a href="#">"News Hounds" Publishing Platform</a></h3>
+              <p>A multi-week, full stack group sprint at NSS. The client was a React application served by an API we wrote 
+                first in vanilla Python, then reworked as a Django project using the popular Django REST Framework. 
+              </p>
+              <p>Our team's self-defined learning goals included gaining a deeper understanding of the Django ORM (my new best friend although I still love you SQL, promise), 
+                as well as filtering and serialization options for database results.
+              </p>
             </article>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
+          <div class="col-6 col-6-medium col-12-small">
             <article class="box style2">
-              <a href="#" class="image featured"
-                ><img src="images/pic02.jpg" alt=""
+              <a target="_blank" href="https://github.com/NSS-Day-Cohort-42/rare-news-hounds" class="image featured"
+                ><img src="https://github.com/NSS-Day-Cohort-42/rare-news-hounds/blob/main/src/screencapture/RareFilteringAndTagging.gif?raw=true" alt=""
               /></a>
-              <h3><a href="#">Veroeros primis</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
             </article>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a href="#" class="image featured"
-                ><img src="images/pic03.jpg" alt=""
-              /></a>
-              <h3><a href="#">Lorem ipsum</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
-            </article>
-          </div>
+
+
+          <div class="row">
+            <div class="col-6 col-6-medium col-12-small">
+              <article class="box style2">
+                <h3><a target="_blank" href="https://github.com/gavinschriver/who-he-play-for">"Who He Play For?" Front-End Capstone</a></h3>
+                <p>A wet n' wild dive into the world of React, state management, fake APIs and async jungles. And basketball. This project mutated from a simple social media chat 
+                  idea into a schadenfreude-fueled romp of trash-talking and random player assignment, reflecting the capricious nature of today's NBA stars and fans alike.
+                </p>
+                <p>My biggest goal with this project was to interact with multiple external sources of data, and boy did I. One could say they interacted with me as well.
+                  <a target="_blank" href="https://hey-chuck-who-he-play-for.herokuapp.com/">Feel free to poke around</a>, with the fair warning that this project was designed with a mobile-last 
+                  mentality, which I hope to revise soon.
+                </p>
+              </article>
+            </div>
+            <div class="col-6 col-6-medium col-12-small">
+              <article class="box style2">
+                <a href="" class="image featured"
+                  ><img src="./images/whoheplayforgif.gif" alt="who_he_play_for gif"
+                /></a>
+              </article>
+            </div>
+            <!--Websites-->
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
               <a href="#" class="image featured"
@@ -166,12 +158,13 @@
             </article>
           </div>
         </div>
-        <footer>
-          <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+
+        <div class="container">
+          <p>Wanna click a button that takes you to the contact section immediately below?</p>
           <a href="#contact" class="button large scrolly"
-            >Get in touch with me</a
+            >Be my guest</a
           >
-        </footer>
+        </div>
       </div>
     </article>
 
@@ -179,14 +172,14 @@
     <article id="contact" class="wrapper style4">
       <div class="container medium">
         <header>
-          <h2>Have me make stuff for you.</h2>
-          <p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+          <h2>Get ahold of me</h2>
+          <p>Fill out the form below for some #feedback</p>
         </header>
         <div class="row">
           <div class="col-12">
             <form
               method="post"
-              action="mailto:test@example.com?subject=Testing out mailto!&body=This is only a test!"
+              action="https://formspree.io/f/xwkwnwal"
             >
               <div class="row">
                 <div class="col-6 col-12-small">
@@ -226,38 +219,28 @@
               </div>
             </form>
           </div>
+
+          <!--Resume-->
+          <article class="wrapper style4">
+            <div class="container medium">
+              <header>
+                <h2>Resume</h2>
+              </header>
+              <iframe frameborder="0" scrolling="no"
+              width="640" height="480"
+              src="https://drive.google.com/file/d/106DaF8nkczoQ3hmu9oZawJOLCCcdGStB/preview">
+           </iframe>
+            </div>
+          </article>
+
           <div class="col-12">
             <hr />
-            <h3>Find me on ...</h3>
+            <h3>Not huge on the socials, but you can find me on ...</h3>
             <ul class="social">
               <li>
-                <a href="#" class="icon brands fa-twitter"
-                  ><span class="label">Twitter</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-dribbble"
-                  ><span class="label">Dribbble</span></a
-                >
-              </li>
               <li>
                 <a href="#" class="icon brands fa-linkedin-in"
                   ><span class="label">LinkedIn</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-tumblr"
-                  ><span class="label">Tumblr</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-google-plus"
-                  ><span class="label">Google+</span></a
                 >
               </li>
               <li>
@@ -282,7 +265,7 @@
         </div>
         <footer>
           <ul id="copyright">
-            <li>&copy; Untitled. All rights reserved.</li>
+            <li>&copy;I built this site with a lovely starter-template-boost from <a href=https://html5up.net/ target="_blank">HTML5Up</a>. Good stuff, nice folks.</li>
           </ul>
         </footer>
       </div>
