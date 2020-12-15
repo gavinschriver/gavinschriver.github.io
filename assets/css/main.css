@@ -1262,9 +1262,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 			
-			#resume iframe {
+/* 			#resume iframe {
 				width: 350px;
-			}
+			} */
 			
 
 			.row {
